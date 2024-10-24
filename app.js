@@ -40,3 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var marker = L.marker([-23.548108835744276, -46.82994974607978]).addTo(map);
   marker.bindPopup("O cachorrinho está aqui!").openPopup();
 });
+
+var marker2 = L.marker([-23.548167848079338, -46.829939017243134], {icon: greenIcon}).addTo(map);
+  marker2.bindPopup("Amada turma de DMD, eu me perdi aqui").openPopup();
