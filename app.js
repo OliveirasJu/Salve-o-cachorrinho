@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 var greenIcon = L.icon({
-    iconUrl: 'https://t3.ftcdn.net/jpg/02/73/16/24/240_F_273162497_ShAAB1TH0vhM4UUWbhBuao8jtGBDubwD.jpg',
+    iconUrl: 'https://static.vecteezy.com/system/resources/thumbnails/016/761/881/small/the-dog-smiles-because-he-is-happy-png.png',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
