@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }).addTo(map);
  
   var greenIcon = L.icon({
-    iconUrl: 'https://png.pngtree.com/png-clipart/20230514/original/pngtree-smile-dog-on-white-background-png-image_9160783.png',
+    iconUrl: 'https://png.pngtree.com/png-clipart/20231103/original/pngtree-miniature-pinscher-black-photo-png-image_13499626.png',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
  
   // Create a marker with popup and add it to the map
-  var marker = L.marker([-23.516357107383552, -46.835143207955774]).addTo(map);
-  marker.bindPopup("Amada turma de DMD, você está aqui, onde há muitas possibilidades de crescimento !").openPopup();
+  var marker = L.marker([-23.53363805783715, -46.85279934608026]).addTo(map);
+  marker.bindPopup("Oii, essa é a minha casinha!").openPopup();
  
  
   
     // Create a marker with popup and add it to the map
-  var marker2 = L.marker([-23.52026413037824, -46.83670586136634], {icon: greenIcon}).addTo(map);
-  marker2.bindPopup("Amada turma de DMD, eu me perdi aqui").openPopup();
+  var marker2 = L.marker([-23.548049823382716, -46.82990683073322], {icon: greenIcon}).addTo(map);
+  marker2.bindPopup("Essa é a casinha do meu namorado!").openPopup();
  
 });
